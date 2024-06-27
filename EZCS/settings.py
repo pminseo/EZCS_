@@ -39,10 +39,10 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "main",
-    # "account",
-    # "management",
-    # "education",
-    # "counseling",
+    "accounts",
+    "management",
+    "education",
+    "counseling",
 ]
 
 MIDDLEWARE = [
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    # "account.middleware.BlockedMiddleware",
+    "account.middleware.BlockedMiddleware",
 ]
 
 ROOT_URLCONF = "EZCS.urls"
