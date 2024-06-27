@@ -22,7 +22,7 @@ urlpatterns = [
     path("", include("main.urls")),
     path("main/", include("main.urls")),
     path("accounts/", include("accounts.urls")),
-    # path("management/", include("management.urls")),
-    # path("education/", include("education.urls")),
+    path("management/", include("management.urls")),
+    path("education/", include("education.urls")),
     path("counseling/", include("counseling.urls")),
 ]
