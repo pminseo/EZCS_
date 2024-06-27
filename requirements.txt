@@ -1,5 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Django==5.0.6 
 =======
 Django==5.0.6
 >>>>>>> 90a3700ad51dafbd412f3c2e498022213fc5c204
+=======
+Django==5.0.6
+mysqlclient==2.2.4
+>>>>>>> 75bec1872e2c3ea227575a1f03f591278bb561a9
